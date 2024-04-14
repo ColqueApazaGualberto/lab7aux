@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import { Button } from './components/Butoon'
 import { Random } from './components/RandomComponent'
+import CompWithProps from './components/CompWithProps'
 
 function App() {
   const buttonText = "Count: ";
@@ -19,7 +20,7 @@ function App() {
         </a>
       </div>
       <h1>Intento 1 :) </h1>
-      <Random text = {buttonText}/>
+      <CompWithProps></CompWithProps>
     </>
   )
 }
