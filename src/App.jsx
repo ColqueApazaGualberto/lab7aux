@@ -3,6 +3,7 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 import { Button } from './components/Butoon'
+import { Random } from './components/RandomComponent'
 
 function App() {
   const buttonText = "Count: ";
@@ -18,7 +19,7 @@ function App() {
         </a>
       </div>
       <h1>Intento 1 :) </h1>
-      <Button text = {buttonText}/>
+      <Random text = {buttonText}/>
     </>
   )
 }
